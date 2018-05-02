@@ -13,7 +13,7 @@ body {
 #welcome {
 	background-color: rgb(60,120,170);
 	color: #fff;
-	display: none;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
@@ -53,7 +53,7 @@ body {
 }
 
 #board {
-	display: flex;
+	display: none;
 	width: 100%;
 	padding: 1.5vw;
 	box-sizing: border-box;
