@@ -10,7 +10,7 @@ function drawBoard(event) {
 console.log("ok");
 	event.preventDefault();
 	document.getElementById('welcome').style.display = 'none';
-	board.styledisplay = 'flex';
+	board.style.display = 'flex';
 
 	var gameTiles = document.getElementById('playGame').level.value; 
 	console.log("gameTiles", gameTiles);
