@@ -68,7 +68,6 @@ body {
 	width: 22vw;
 	height: 22vw;
 	margin: 1vw 0;
-	background-color: #F058E6;
 	position: relative;
 	transform: rotateY(0deg);
 	transform-style: preserve-3d;
@@ -99,6 +98,7 @@ body {
 	font-size: 25px;
 	z-index: 1;
 	transform: rotateY(180deg);
+	background-color: #F058E6;
 }
 
 #board .flipped {
