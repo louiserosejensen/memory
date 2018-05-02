@@ -17,7 +17,6 @@ console.log("ok");
 	var gameTileImgs = tileImgs.slice(0, gameTiles/2);
 	console.log("gameTilesImgs", gameTileImgs);
 	gameTileImgs = gameTileImgs.doubleShuffle();
-	console.log("test1", gameTileImgs.length); 
 		for (i = 0; i <gameTileImgs.length; i += 1) {
 		var content = '';
 		content += '<section>';
@@ -25,7 +24,6 @@ console.log("ok");
 		content += '<div class="back">' + gameTileImgs[i] + '</div>';
 		content += '</section>';
 		
-		console.log("board", board);
 		board.insertAdjacentHTML('beforeend', content);
 	}
 }
